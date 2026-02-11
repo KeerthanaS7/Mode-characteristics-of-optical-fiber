@@ -14,38 +14,8 @@ To study the mode characteristics of fiber optic cable and observe the lower ord
 ---
 
 # Theory
-The central spot carries 95% of the intensity for laser beams with Gaussian profile.  
+<img width="636" height="762" alt="image" src="https://github.com/user-attachments/assets/2db42f3c-7370-4b47-a29b-cbf81f69273f" />
 
-\[
-I = I_0 e^{-2(r / w)^2}
-\]
-
-where \(e = 2.718\) is the base of the natural logarithm.  
-
-- An accepted definition of a radius of a Gaussian beam is at 0.135 times its peak value \(I_0\).  
-- This radius is called **spot size**. The spot diameter is \(w\).  
-
-**Spot Diameter (d) micron** = Focal length of the Lens (f) mm × Laser beam full divergence angle (DA) mrad.  
-
-To achieve maximum coupling efficiency, the fiber core diameter must be larger than the spot diameter.  
-
-\[
-NA = \frac{\text{Laser Beam Diameter (B.D.)}}{2 \times \text{Lens Focal Length (f)}}
-\]
-
-The source coupler consists of two base plates:  
-- One base plate contains a focusing lens and a female connector receptacle.  
-- The other base plate attaches to the laser.  
-- An O-ring is sandwiched between the plates, with threaded screws interconnecting them.  
-- A screwdriver can adjust angular orientation by turning the screws.  
-
-**Modes and V-number:**  
-- The number of modes propagating through the fiber depends on the **V-number**.  
-- If \(V < 2.045\), only a single mode propagates (HE11 or LP01 mode).  
-- If \(V > 2.045\), multiple modes propagate.  
-- For \(V = 4.91\), four Linearly Polarized modes propagate through the fiber.  
-
----
 
 # Procedure
 1. Place the optical breadboard on a flat table surface.  
